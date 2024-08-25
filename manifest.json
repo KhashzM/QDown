@@ -1,0 +1,29 @@
+{
+    "name": "快下",
+    "description": "通过在原来的链接前添加加速链接实现文件的加速下载。",
+    "version": "1.0",
+    "author": "khashz",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "ico/Rocket-16.png",
+            "48": "ico/Rocket-48.png",
+            "128": "ico/Rocket-128.png"
+        }
+    },
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "tabs"
+    ],
+    "icons": {
+        "16": "ico/Rocket-16.png",
+        "48": "ico/Rocket-48.png",
+        "128": "ico/Rocket-128.png"
+    }
+}
